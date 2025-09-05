@@ -11,13 +11,12 @@ void selection_sort(int n, int vet[])
     troca (v[n],vet);
   }
 }
-  int main()
+
+int main()
 {
+  int n=10;
+  int vet[];
   selection_sort (n,vet);
-
-
-  pegar a próxima função
-
-
-  retunrn 0;
+  
+  return 0;
 }
