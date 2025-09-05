@@ -1,14 +1,19 @@
 void selectionsort(int n, int vet[])
 {
-  int j=0;
-  
-  for (int i= 0;i < (n-1);i++)
+  int j = 0;
+  int i = 0;
+  int aux;
+  for ( i = 0; i < (n-1); i++)
   {
-    if ( v[i] < v[j])
+    v[i] = aux;
+    for ( i = 0; i< (n-1); i++)
     {
-      aux = v[i];
-      v[i] = v[j];
-      v[j] = aux;
+      if ( v[i] < aux)
+      {
+        aux = v[i];
+      }
     }
   }
 }
+encontrar o menor valor no vetor
+substituir o valor no índice
