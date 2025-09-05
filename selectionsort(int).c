@@ -1,6 +1,6 @@
 void selectionsort(int n, int vet[])
 {
-  int i, aux;
+  int j=0;
   
   for (int i= 0;i < (n-1);i++)
   {
